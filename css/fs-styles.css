@@ -196,24 +196,27 @@ i {
 
 .cu-container {
   display: flex;
+  box-sizing: border-box;
   margin: 2.5rem;
   flex-wrap: wrap; /* Enable wrapping for responsive layout */
   justify-content: center;
+  position: relative;
 }
-
-
-.cu-video {
-  flex: 0 0 50%; /* Set the width of the video column */
+.cu-animation{
+  display: flex;
+  flex:1;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin: 4rem;
 }
-
-
-.cu-video video {
-  width: 100%; /* Make the video fill the width of its container */
-  height: auto; /* Preserve the aspect ratio of the video */
-}
-
 .cu-form-wrapper {
-  margin-left: 50px;
+  flex:1;
+  box-sizing: border-box;
+  display:flex;
+  flex-direction: column;
+  margin-left: auto;
+  
 }
 
 .stf_image-container {
