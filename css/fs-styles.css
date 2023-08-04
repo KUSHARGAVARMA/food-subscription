@@ -176,7 +176,7 @@ i {
 
 }
 
-
+/* 
 .pp-content-wrapper{
   display: flex;
   margin: 2.5rem;
@@ -192,7 +192,56 @@ i {
   border: 1px solid #380c49;
   transition: transform 0.3s, color 0.3s, background-color 0.3s;
   border-radius:11px;
+} */
+section.pricing-plans{
+  display: flex;
+  flex-direction: column;
+  color:gray;
+  align-items: center;
+  justify-content: space-evenly;
 }
+/* div.signup-button-pricing{
+  text-align:center;
+  position:relative;
+  top:45px;}
+  .btn-pricing{
+    display:inline-block;
+color:white;
+margin-right:15px;
+padding:15px 25px 15px 25px;
+background-color:#f63854;
+border: 1px solid #f63854;
+transition: transform 0.3s, color 0.3s, background-color 0.3s;
+border-radius:64px;
+}
+
+a.btn-pricing:hover {
+transform: scale(1.2);
+} */
+ div.card{
+  border:1px solid lightgrey;
+  border-radius:4%;
+  width:250px;
+  border: 2px solid lightgray;
+  padding:25px 10px 50px 10px;
+  line-height:30px;
+  box-shadow:0 10px 22px 10px rgba(27, 38, 49, 0.1)
+   } 
+   div.card h3{
+   text-align:center;
+   padding-bottom:20px;
+   }
+   div.card h4{
+   text-align:center;
+   padding-bottom:10px;
+   color:#f63854;
+   font-size:40px;
+   font-weight:500;
+   }
+
+   div.card h4 span{
+   color:gray;
+   font-size:15px;} */
 
 .cu-container {
   display: flex;
