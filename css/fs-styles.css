@@ -11,7 +11,7 @@
 } */
 
 .navigation {
-  position: fixed;
+  position: sticky;
   overflow: hidden;
   top:0;
   height: 30px;
@@ -175,57 +175,49 @@ i {
   align-items: center;
 
 }
-
-/* 
-.pp-content-wrapper{
-  display: flex;
-  margin: 2.5rem;
-  gap: 2.0rem;
-  justify-content: space-around;
-}
-.pp-content-item{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  box-shadow: 0 10px 30px 0 rgba(100, 100, 111, 0.2);
-  border: 1px solid #380c49;
-  transition: transform 0.3s, color 0.3s, background-color 0.3s;
-  border-radius:11px;
-} */
 section.pricing-plans{
   display: flex;
   flex-direction: column;
   color:gray;
-  align-items: center;
-  justify-content: space-evenly;
+  position: relative;
 }
-/* div.signup-button-pricing{
+.wrap-pp{
+  position: relative;
+  display: flex;
+  width: auto;
+  gap:2rem;
+  flex: 1;
+}
+ div.signup-button-pricing{
   text-align:center;
   position:relative;
-  top:45px;}
+  top:25px;}
+
   .btn-pricing{
     display:inline-block;
-color:white;
-margin-right:15px;
-padding:15px 25px 15px 25px;
-background-color:#f63854;
-border: 1px solid #f63854;
-transition: transform 0.3s, color 0.3s, background-color 0.3s;
-border-radius:64px;
+  color:white;
+  margin-right:15px;
+  padding:15px 25px 15px 25px;
+  background-color:#f63854;
+  border: 1px solid #f63854;
+  transition: transform 0.3s, color 0.3s, background-color 0.3s;
+  border-radius:64px;
 }
 
 a.btn-pricing:hover {
 transform: scale(1.2);
-} */
+} 
  div.card{
-  border:1px solid lightgrey;
-  border-radius:4%;
-  width:250px;
-  border: 2px solid lightgray;
-  padding:25px 10px 50px 10px;
-  line-height:30px;
-  box-shadow:0 10px 22px 10px rgba(27, 38, 49, 0.1)
+  border-radius: 4%;
+    width: 250px;
+    border: 2px solid lightgray;
+    padding: 25px 10px 25px 10px;
+    line-height: 30px;
+    box-shadow: 0 10px 22px 10px rgba(27, 38, 49, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
    } 
    div.card h3{
    text-align:center;

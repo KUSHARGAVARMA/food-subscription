@@ -1,0 +1,72 @@
+section.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cu-content-wrapper{
+    display: flex;
+    width: 100%;
+}
+.cu-animation{
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    overflow:hidden; /* Add overflow property */
+    align-items: center;
+    justify-content: center;
+}
+.cu-animation img{
+    width:75%;
+    height:auto;
+}
+.cu-form{
+    display: flex;
+    flex: 1;
+ 
+   
+    overflow: hidden;
+    max-width: 100%;
+
+}
+.flex-form {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    max-width: 400px; /* Limit the maximum width of the form */
+    /* margin: 0 auto;Center the form horizontally */
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-form label,
+{
+    margin-bottom: 8px;
+}
+
+
+.flex-form input,
+.flex-form textarea,.flex-form select  {
+    width: 100%; /* Full width input fields */
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.flex-form button {
+    align-self: center; /* Align the button to the left */
+    padding: 10px 20px;
+    background-color: #ce2163;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+#checkbox{
+    max-width: 10px; /* Full width input fields */
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
