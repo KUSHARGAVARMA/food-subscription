@@ -82,7 +82,7 @@ background-color:#f63854;
   left:0;
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 .hb-show{
   position: relative;

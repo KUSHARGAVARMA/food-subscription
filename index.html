@@ -25,7 +25,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+    <style>
+        *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Kanit', sans-serif;
+    
+    }
+    /* after seeing that the li component has a 
+    dot some settings has to be there */
+    
+    li {
+      list-style: none;
+    }
+
+    li a {
+      text-decoration: none;
+    }
+
+    :root {
+        
+      /* 1.5rem * 10 = 15px
+         3.0rem 8 10 = 30px
+      */
+      font-size: 62.5%; /* 16px * 0.625 = 10px */
+    }
+
+    p, li, a, label, option {
+      font-size: 1.5rem;
+    }
+
+    h1 {
+      font-size: 4.5rem;
+      color: #ffffff;
+    }
+
+    .hb-text {
+      color: rgb(205, 8, 77);
+    }
+
+    h2 {
+      font-size: 2.4rem;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      font-size: 2.0rem;
+    }
+
+    h4 {
+      font-size: 1.6rem;
+    }
+
+    i {
+      font-size: 3.0rem;
+    }
+    </style>
 </head>
+<!-- adding nav -->
+
+<!-- adding header -->
+<header>
+    <div class="hero-banner">
+
+       <div class="hb-layer">
+
+        <nav>
+            <ul class="navigation">
+                <li class="nav-line"><a class="white-anchors " href="#features">FEATURES</a></li>
+                <li class="nav-line"><a class="white-anchors" href="#details">DETAILS</a></li>
+                <li class="nav-line"><a class="white-anchors" href="#reviews">REVIEWS</a></li>
+                <li class="nav-line"><a class="white-anchors" href="#plans">PLANS</a></li>
+                <li class="nav-line"><a class="white-anchors" href="#signup">SIGN UP</a></li>
+            </ul>
+        </nav>
+          <div class="hb-show">
+            <h1>
+              MEAL PLANS.</br>
+              FOR <span class="hb-text">EVERYONE</span>
+            </h1>
+            <div class="hb-btn-groups">
+              <a href="#" class="btn">Book Now</a>
+              <a href="#" class="btn btn-empty">Show me more</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+</header>
+
 <body>
     <section class="contact-us" id="contactus">
 
@@ -64,8 +157,32 @@
             </div>  
         </div>
         </section>
+<!-- Footer Style -->
 
 
-<link rel="stylesheet" href="/newCss.css" />
+<footer class="footer">
+    <div class="footer-wrapper">
+    <ul class="footer-items">
+      <li class="footer-item"><a href="/about">About</a></li>
+
+      <li class="footer-item"><a href="/iOS">ios App</a></li>
+
+      <li class="footer-item"><a href="/android">Android App</a></li>
+    </ul>
+
+    <ul class="footer-social-items">
+      <li class="fs-item"><a class="fs_link" href="/facebookPage" title="facebook"><i class="fs-icon fa-brands fa-square-facebook"></i></a></li>
+      <li class="fs-item"><a class="fs_link" href="/twitterPage" title="twitter"><i class="fs-icon fa-brands fa-twitter"></i></a></li>
+      <li class="fs-item"><a class="fs_link" href="/instagramPage" title="instagram"><i class="fs-icon fa-brands fa-instagram"></i></a></li>
+    </ul>
+</div>
+
+    
+      <p class="fc-text">Copyright 2023 EVERYONE. All rights reverved.</p>
+    
+</footer>
+  
+
+<link rel="stylesheet" href="/css/newCss.css" />
 </body>
 </html>

@@ -1,0 +1,164 @@
+/* *******************************Header style************************* */
+.hero-banner {
+    width: 100%;
+    height: 80vh;
+    background: rgba(0, 0, 0, 0.7) url("/assets/images/foodiesfeed.com_pizza-ready-for-baking-min.jpg")
+      no-repeat center; 
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.hb-layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left:0;
+    position: absolute;/* the position of the parent is set to relative it will try to fit in to it*/
+    width: 100%;
+    height: 100%;/*the 100 percent of the 80vh of hero-banner*/
+  }
+
+nav{
+    position:sticky;
+    top:0px;
+}
+
+.navigation {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap:1rem;
+  }
+a.white-anchors{
+    color: #fff;
+  }
+.hb-show{
+    position: relative;
+    top: 15rem;
+    left: 4rem;
+    width: 80%;
+  }
+.btn{
+    display:inline-block;
+    color:white;
+    margin-right:15px;
+    padding:15px 25px 15px 25px;
+    background-color:#f63854;
+    border: 1px solid #f63854;
+    transition: transform 0.3s, color 0.3s, background-color 0.3s;
+    border-radius:64px;
+    }
+.btn-empty{
+    color: #f63854;
+    background-color:transparent;
+    }
+a.btn:hover {
+    transform: scale(1.2);
+    }
+a.btn-empty:hover{
+    color:white;
+    background-color:#f63854;
+    }
+
+
+/* *******************************Contact-us style************************* */
+section.contact-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cu-content-wrapper{
+    display: flex;
+    width: 100%;
+}
+.cu-animation{
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    overflow:hidden; /* Add overflow property */
+    align-items: center;
+    justify-content: center;
+}
+.cu-animation img{
+    width:75%;
+    height:auto;
+}
+.cu-form{
+    display: flex;
+    flex: 1;
+ 
+   
+    overflow: hidden;
+    max-width: 100%;
+
+}
+.flex-form {
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    max-width: 400px; /* Limit the maximum width of the form */
+    /* margin: 0 auto;Center the form horizontally */
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.flex-form label
+{
+    margin-bottom: 8px;
+}
+
+
+.flex-form input,
+.flex-form textarea,.flex-form select  {
+    width: 100%; /* Full width input fields */
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.flex-form button {
+    align-self: center; /* Align the button to the left */
+    padding: 10px 20px;
+    background-color: #ce2163;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+#checkbox{
+    max-width: 10px; /* Full width input fields */
+    display: flex;
+    align-items: flex-start;
+}
+
+/* *******************************Footer style************************* */
+
+.footer{
+    background-color:rgba(73, 25, 10, 0.678);
+    
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap:2rem;
+}
+ul.footer-items{
+    display: flex;
+    justify-content: flex-start;
+    gap:2rem;
+    
+}
+.footer-items a{
+    color: #fff;
+}
+a.fs_link{
+    color:white;
+    }
+ul.footer-social-items{
+    display: flex;
+    justify-content: flex-end;
+   
+}
+p.fc-text{
+    text-align: center;
+}
