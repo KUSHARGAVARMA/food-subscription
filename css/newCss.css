@@ -17,9 +17,18 @@
     height: 100%;/*the 100 percent of the 80vh of hero-banner*/
   }
 
-nav{
-    position:sticky;
-    top:0px;
+.sticky-nav {
+     position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 1000;
+    padding: 10px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+.sticky-nav.scrolled {
+    background-color: #333; /* Change the background color when scrolled */
 }
 
 .navigation {
